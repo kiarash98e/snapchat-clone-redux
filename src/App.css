@@ -1,0 +1,31 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefc01;
+    height: 100vh;
+  }
+  
+  .app__logo{
+    object-position: contain;
+    height: 100px;
+
+  }
+  
+  .app__body {
+    background-image: url("https://raw.githubusercontent.com/hamzaali81/snapchat-clone/master/src/images/pngkey.com-broken-iphone-png-8598072.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 250px; */
+    height: 600px;
+    padding: 54px;
+    padding-top: 97px;
+    overflow:"hidden";
+    background-size: contain;
+  }
+  
+  .app__bodyBackground{
+    background-color: white;
+    height: 400px;
+  }
